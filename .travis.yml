@@ -13,6 +13,9 @@ android:
         - sys-img-armeabi-v7a-android-22
         - extra-android-support
         
+jdk:
+  - oraclejdk8
+
 
 script:
    - ./gradlew build connectedCheck     
