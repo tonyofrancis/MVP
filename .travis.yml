@@ -1,16 +1,19 @@
 language: android
 
 android:
+
+    update_sdk: true
+    
     components:
     
         - tools
         - platform-tools
-        - tools
         - build-tools-25.0.2
         - android-25
         - extra-android-m2repository
-        - sys-img-armeabi-v7a-android-25
-        - sys-img-armeabi-v7a-android-tv-25
+        - sys-img-armeabi-v7a-android-21
+        - sys-img-armeabi-v7a-android-19
+        - sys-img-armeabi-v7a-android-tv-21
                 
     licenses:
         - android-sdk-preview-license-52d11cd2
@@ -20,7 +23,8 @@ android:
         
 env:
   matrix:
-     - ANDROID_TARGET=android-25  ANDROID_ABI=armeabi-v7a       
+     - ANDROID_TARGET=android-21  ANDROID_ABI=armeabi-v7a   
+     - ANDROID_TARGET=android-19 ANDROID_ABI=armeabi-v7a    
         
 jdk:
   - oraclejdk8
