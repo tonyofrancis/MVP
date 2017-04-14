@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">logic</string>
+    
+    <string-array name="test_names">
+        <item>Yahoo</item>
+        <item>Verizon</item>
+    </string-array>
+    
+</resources>

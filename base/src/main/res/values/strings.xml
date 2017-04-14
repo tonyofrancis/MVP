@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">base</string>
+
+    <string-array name="names">
+        <item>Google</item>
+        <item>Facebook</item>
+    </string-array>
+
+    <string-array name="tv_names">
+        <item>Microsoft</item>
+        <item>Apple</item>
+    </string-array>
+</resources>
