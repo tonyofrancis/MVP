@@ -8,10 +8,9 @@ android:
         - platform-tools
         - build-tools-25.0.2
         - tools
-        - android-25
+        - android-18
         - extra-android-m2repository
-        - sys-img-armeabi-v7a-android-22
-        - sys-img-armeabi-v7a-android-19
+        - sys-img-armeabi-v7a-android-18
                 
     licenses:
         - android-sdk-preview-license-52d11cd2
@@ -20,9 +19,7 @@ android:
         
 env:
   matrix:
-     - ANDROID_TARGET=android-22  ANDROID_ABI=armeabi-v7a   
-     - ANDROID_TARGET=android-19 ANDROID_ABI=armeabi-v7a    
-    
+     - ANDROID_TARGET=android-18  ANDROID_ABI=armeabi-v7a   
         
 jdk:
   - oraclejdk8
