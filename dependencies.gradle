@@ -1,7 +1,6 @@
 ext {
 
     daggerVersion = '2.9'
-    constraintVersion = '1.0.2'
     javaxVersion = '1.0'
     supportVersion = '25.3.1'
     butterKnifeVersion = '8.5.1'
@@ -22,7 +21,6 @@ ext {
 
     supportLib = [
 
-        constraintLayout: "com.android.support.constraint:constraint-layout:${constraintVersion}",
         appCompat: "com.android.support:appcompat-v7:${supportVersion}",
         leanBack: "com.android.support:leanback-v17:${supportVersion}",
         recyclerView: "com.android.support:recyclerview-v7:${supportVersion}"

@@ -28,7 +28,6 @@ dependencies {
     compile project(':base')
 
     compile supportLib.appCompat
-    compile supportLib.constraintLayout
     compile appLib.butterKnife
     annotationProcessor appLib.butterKnifeProcessor
     compile appLib.dagger
